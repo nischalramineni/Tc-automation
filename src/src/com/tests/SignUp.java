@@ -32,7 +32,7 @@ public class SignUp {
   @Test
   public void testSignUp() throws InterruptedException {
 	  objflow = new SignupFlow(driver);
-	  objflow.SignupScenario("Rummy", "Nandam", "Rummynandam@gmail.com", "crazyguy206");
+	  objflow.SignupScenario("ramineni", "Nischal", "ramineninischal@gmail.com", "crazyguy206");
   }
   
   @AfterClass
